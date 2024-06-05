@@ -22,7 +22,7 @@ systemctl enable xxx
 
 systemctl disable xxx
 
-journalctl -u 
+journalctl -u xxx
 
 ## 参考链接
 
