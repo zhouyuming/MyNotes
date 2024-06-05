@@ -24,6 +24,8 @@ systemctl disable xxx
 
 journalctl -u xxx
 
+systemvtl list-timers
+
 ## timer
 
 ## 参考链接
