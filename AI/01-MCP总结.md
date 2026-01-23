@@ -30,6 +30,6 @@ Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理�
 ## Tools
 MCP使得添加新数据源或工具变得简单，无需大幅修改现有系统
 # 进阶概念二
-## STDIO
-
-## SSE
+## STDIO(标准输入/输出)
+Stdio通过本地进程间通信实现，客户端以子进程形势启动服务器，双方通过stdin/stdio交换JSON-RPC消息，每条消息以换行符分隔
+## SSE(Server-Sent Events)
