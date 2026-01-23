@@ -15,3 +15,5 @@ Function Calling是大模型厂商提供的专有能力，由大模型厂商之�
 # 快速实现一个helloworld的MCP Server
 安装mcp包扩展
 pip install mcp
+# MCP Client是什么
+MCP Client充当LLM和MCP server之间的桥梁
