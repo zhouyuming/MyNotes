@@ -27,15 +27,11 @@ MCP Client充当LLM和MCP server之间的桥梁，MCP client的工作流程如�
 ## MCP Server
 MCP server是MCP架构中的关键组件，它可以提供3种主要类型的功能：
 - 资源（Resources）：Resources是MCP里用来暴露数据的核心机制，相当于给LLM提供“原材料”
-- 工具（Tools）：
+- 工具（Tools）：MCP使得添加新数据源或工具变得简单，无需大幅修改现有系统
+- 提示（Prompts）：Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
 # 快速实现一个helloworld的MCP Server
 安装mcp包扩展
 pip install mcp
-# 进阶概念一
-## Prompts
-Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
-## Tools
-MCP使得添加新数据源或工具变得简单，无需大幅修改现有系统
 # 进阶概念二
 ## STDIO(标准输入/输出)
 Stdio通过本地进程间通信实现，客户端以子进程形势启动服务器，双方通过stdin/stdio交换JSON-RPC消息，每条消息以换行符分隔
