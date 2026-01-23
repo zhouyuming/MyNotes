@@ -17,8 +17,8 @@ Function Calling是大模型厂商提供的专有能力，由大模型厂商之�
 pip install mcp
 # MCP Client是什么
 MCP Client充当LLM和MCP server之间的桥梁，MCP client的工作流程如下：
-1、MCP Client首先从MCP Server获取可用的工具列表
-2、将用户的查询连同工具描述通过function calling一起发送给LLM
-3、如果需要使用工具，MCP Client会通过MCP Server执行相应的工具调用
-4、工具调用的结果会被发送回LLM，LLM基于所有信息生成自然语言响应。
-5、最后将响应展示给用户
+- 1、MCP Client首先从MCP Server获取可用的工具列表
+- 2、将用户的查询连同工具描述通过function calling一起发送给LLM
+- 3、如果需要使用工具，MCP Client会通过MCP Server执行相应的工具调用
+- 4、工具调用的结果会被发送回LLM，LLM基于所有信息生成自然语言响应。
+- 5、最后将响应展示给用户
