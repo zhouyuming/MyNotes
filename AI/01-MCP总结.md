@@ -31,7 +31,7 @@ MCP server是MCP架构中的关键组件，它可以提供3种主要类型的功
 - 提示（Prompts）：Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
 
 可以在MCP Servers Repository和Awesome MCP Servers这两个repo中找到许多由社区实现的MCP server。使用TypeScript编写的MCP server可以通过npx命令来运行，使用Python编写的MCP server可以通过uvx命令来运行。
-# 进阶概念二
+# 通信机制
 ## STDIO(标准输入/输出)
 Stdio通过本地进程间通信实现，客户端以子进程形势启动服务器，双方通过stdin/stdio交换JSON-RPC消息，每条消息以换行符分隔
 ## SSE(Server-Sent Events)
