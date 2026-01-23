@@ -17,7 +17,7 @@ MCP遵循客户端-服务器架构（client-server），其中包含以下几个
 - MCP客户端（MCP Clients）：在主机程序内部，与MCP server保持1:1的连接
 - 本地资源（Local Resources）：本地计算机中可供MCP server安全访问的资源（例如文件、数据库）
 - 远程资源（Remote Resources）：MCP server可以连接到的远程资源（例如通过 API）
-# MCP Client
+## MCP Client
 MCP Client充当LLM和MCP server之间的桥梁，MCP client的工作流程如下：
 - 1、MCP Client首先从MCP Server获取可用的工具列表
 - 2、将用户的查询连同工具描述通过function calling一起发送给LLM
