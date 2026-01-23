@@ -12,6 +12,11 @@ MCP提供结构化的访问模式，内置验证，确保数据交互安全且�
 MCP是通用协议层的标准，类似于“AI领域的USB-C接口”，定义了LLM与外部工具/数据源的通信格式，但不绑定任何特定模型或厂商，将复杂的函数调用抽象为客户端-服务器架构。
 Function Calling是大模型厂商提供的专有能力，由大模型厂商之间在接口定义和开发文档上存在差异；允许大模型直接生成调用函数，触发外部API，依赖大模型自身的上下文理解和结构化输出能力。
 # MCP核心架构
+MCP遵循客户端-服务器架构（client-server），其中包含以下几个核心概念：
+- MCP主机（MCP Hosts）：发起请求的LLM应用程序（例如Claude Desktop、IDE或AI工具）
+- MCP客户端（MCP Clients）：在主机程序内部，与MCP server保持1:1的连接
+- 本地资源（Local Resources）：本地计算机中可供MCP server安全访问的资源（例如文件、数据库）
+- 远程资源（Remote Resources）：MCP server可以连接到的远程资源（例如通过 API）
 # MCP协议的运行机制
 # 快速实现一个helloworld的MCP Server
 安装mcp包扩展
