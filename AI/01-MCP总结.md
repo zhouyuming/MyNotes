@@ -22,3 +22,10 @@ MCP Client充当LLM和MCP server之间的桥梁，MCP client的工作流程如�
 - 3、如果需要使用工具，MCP Client会通过MCP Server执行相应的工具调用
 - 4、工具调用的结果会被发送回LLM，LLM基于所有信息生成自然语言响应。
 - 5、最后将响应展示给用户
+# 进阶概念
+## Resources
+Resources是MCP里用来暴露数据的核心机制，相当于给LLM提供“原材料”
+
+## Prompts
+
+## Tools
