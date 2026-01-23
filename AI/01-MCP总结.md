@@ -25,7 +25,7 @@ MCP Client充当LLM和MCP server之间的桥梁，MCP client的工作流程如�
 # 进阶概念
 ## Resources
 Resources是MCP里用来暴露数据的核心机制，相当于给LLM提供“原材料”
-
 ## Prompts
-
+Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
 ## Tools
+MCP使得添加新数据源或工具变得简单，无需大幅修改现有系统
