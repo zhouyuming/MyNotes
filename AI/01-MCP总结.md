@@ -29,6 +29,7 @@ MCP server是MCP架构中的关键组件，它可以提供3种主要类型的功
 - 资源（Resources）：Resources是MCP里用来暴露数据的核心机制，相当于给LLM提供“原材料”
 - 工具（Tools）：MCP使得添加新数据源或工具变得简单，无需大幅修改现有系统
 - 提示（Prompts）：Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
+
 可以在MCP Servers Repository和Awesome MCP Servers这两个repo中找到许多由社区实现的MCP server。使用TypeScript编写的MCP server可以通过npx命令来运行，使用Python编写的MCP server可以通过uvx命令来运行。
 # 快速实现一个helloworld的MCP Server
 安装mcp包扩展
