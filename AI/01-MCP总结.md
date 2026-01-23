@@ -1,4 +1,4 @@
-# MCP协议是什么
+# MCP协议介绍
 模型上下文协议（Model Context Protocol）是一个开源协议，由Anthropic（Claud开发公司）2024年11月开发，旨在让大模型模型（LLM）能够以标准化的方式连接到外部数据源和工具。
 ## 标准化
 MCP标准化了LLM访问外部数据的方式，简化了不同数据源和工具的集成
@@ -31,9 +31,6 @@ MCP server是MCP架构中的关键组件，它可以提供3种主要类型的功
 - 提示（Prompts）：Prompts是MCP的“模板大师”，提供预定义的交互模式或者推理指引
 
 可以在MCP Servers Repository和Awesome MCP Servers这两个repo中找到许多由社区实现的MCP server。使用TypeScript编写的MCP server可以通过npx命令来运行，使用Python编写的MCP server可以通过uvx命令来运行。
-# 快速实现一个helloworld的MCP Server
-安装mcp包扩展
-pip install mcp
 # 进阶概念二
 ## STDIO(标准输入/输出)
 Stdio通过本地进程间通信实现，客户端以子进程形势启动服务器，双方通过stdin/stdio交换JSON-RPC消息，每条消息以换行符分隔
@@ -41,5 +38,8 @@ Stdio通过本地进程间通信实现，客户端以子进程形势启动服务
 SSE通过HTTP长连接实现远程通信，服务器端需提供两个端点：
 - /sse (GET请求)：建立长连接，接收服务器推送的事件流。
 - /messages (POST请求)：客户端发送请求至该端点。
+# 快速实现一个helloworld的MCP Server
+安装mcp包扩展
+pip install mcp
 # 参考链接
 https://zhuanlan.zhihu.com/p/27327515233
