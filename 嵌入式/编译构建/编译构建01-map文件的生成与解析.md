@@ -20,3 +20,6 @@ map文件是编译器链接后生成的文本文件，用于反映程序符号�
 - 查找大函数/变量：通过符号表按大小排序，找出占用Flash或RAM过多的函数或数组。
 - 代码优化：检查Removing Unused段，确认冗余代码被成功删除。
 - 调试死机：根据硬件错误追踪到的地址，在Map文件中查找对应函数。 
+
+# map文件分析工具
+https://gitcode.com/open-source-toolkit/92b73
