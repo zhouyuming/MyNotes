@@ -11,3 +11,6 @@ map文件是编译器链接后生成的文本文件，用于反映程序符号�
 
 # 关键数据解释
 - RO-code/RO-data：代码段和只读常量（如const变量），存储在Flash。
+- RW-data：已初始化的全局变量，存储在RAM。
+- ZI-data：未初始化或初始化为0的全局变量，存储在RAM，程序启动时自动清零。
+- 程序实际占用RAM：RW-data + ZI-data。
