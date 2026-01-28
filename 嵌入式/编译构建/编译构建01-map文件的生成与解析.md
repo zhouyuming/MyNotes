@@ -23,3 +23,6 @@ map文件是编译器链接后生成的文本文件，用于反映程序符号�
 
 # map文件分析工具
 https://gitcode.com/open-source-toolkit/92b73
+
+# 参考链接
+https://www.cnblogs.com/chengeputongren/p/12177423.html
