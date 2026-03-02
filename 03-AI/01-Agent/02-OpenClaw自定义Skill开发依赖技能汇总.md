@@ -5,3 +5,7 @@
 # 百度大脑AI开放平台
 
 [百度大脑AI开放平台](https://ai.baidu.com/ai-doc/OCR/yk3h7y3ks)
+
+# 阿里云OCR
+
+[阿里云OCR](https://ai.aliyun.com/ocr/vehicle)
