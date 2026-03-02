@@ -13,3 +13,7 @@
 # 华为云OCR
 
 [华为云OCR](https://www.huaweicloud.com/product/cardocr.html)
+
+# 字节跳动AI开放平台
+
+[字节跳动AI开放平台](https://cv-api.bytedance.com/doc/openapi/1818/drivinglicense_ocr)
