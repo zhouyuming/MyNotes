@@ -9,3 +9,7 @@
 # 阿里云OCR
 
 [阿里云OCR](https://ai.aliyun.com/ocr/vehicle)
+
+# 华为云OCR
+
+[华为云OCR](https://www.huaweicloud.com/product/cardocr.html)
