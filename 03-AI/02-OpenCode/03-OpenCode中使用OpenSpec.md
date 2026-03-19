@@ -12,6 +12,8 @@ OpenSpec vs SpecKit：两种SDD哲学
 
 提案-->执行-->归档
 
+扩展工作流：应对复杂场景
+
 # 安装与初始化
 
 ## 安装OpenSpec
