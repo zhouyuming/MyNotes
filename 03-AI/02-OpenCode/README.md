@@ -1,6 +1,6 @@
-# OpenDoe 使用总结
+# OpenCode 使用总结
 
-OpenDoe 相关笔记
+OpenCode 相关笔记
 
 ## 目录
 
