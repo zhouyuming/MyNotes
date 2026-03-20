@@ -7,5 +7,3 @@ OpenCode内置了完善的工具能力，包括文件匹配（Glob）、内容�
 # 参考链接
 
 [OpenCode官方文档](https://opencode.ai/docs/zh-cn/)
-
-[从Copilot到工程化 Agent执行框架：基于OpenCode + OpenSpec的企业级 AI Coding落地实践](https://aicoding.csdn.net/6966226a6554f1331aa1b6c0.html)
