@@ -20,6 +20,8 @@ OpenSpec vs SpecKit：两种SDD哲学
 
 这种结合将开发过程从传统的“指令-响应”模式，提升为更高效的“监督-自主”模式
 
+ LLMs is already smart enough — intelligence is not the bottleneck, context is
+
 # 安装与初始化
 
 ## 安装OpenSpec
