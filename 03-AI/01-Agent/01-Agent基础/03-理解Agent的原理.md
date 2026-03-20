@@ -6,6 +6,18 @@
 
 阶段三：Agent
 
+## Agent系统的五大核心组件
+
+### LLM大模型
+
+### Tools工具
+
+### Workflow工作流
+
+### HITL人工介入
+
+### Memory & State
+
 ## Agent和普通对话的核心区别
 
 ## 自己动手写一个AI Agent
