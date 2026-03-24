@@ -5,6 +5,13 @@
 阶段二：增强型大模型
 
 阶段三：Agent
+## Agent的三个本质要素
+
+感知（Perception）—— 通过工具获取外部信息（read_file、execute_bash 的输出）
+
+决策（Reasoning）—— LLM 根据任务目标和已有观察，决定下一步行动
+
+ 行动（Action）—— 通过工具作用于外部环境（write_file、execute_bash）
 
 ## Agent系统的五大核心组件
 
