@@ -54,11 +54,33 @@ openspec init 或 openspec init-cn
 
 # 开始使用OpenSpec做需求
 
-## 相关命令使用
-
-### /opsx:explore
+## /opsx:explore（可选）
 
 规划用的。进入探索模式——思考各种想法，研究问题，明确需求
+
+## 首先明确需求，使用/opsx-new命令创建新的变更
+
+这时候我们可以看到openspec/changes/目录下创建了对应变更名称的目录
+
+## 接着ai准备创建proposal.md
+
+proposal.md用来描述这个变更为什么做，要做什么，目标是什么
+
+输入命令/opsx-continue继续
+
+## 创建design.md
+
+design.md主要是就是描述ai是如何对这个需求进行设计的
+
+## 生成spec.md
+
+## 生成tasks.md
+
+task.md即描述AI即将要做哪些任务，后面执行时会根据tasks.md上的任务一步一步执行
+
+## 用/opsx-apply命令执行
+
+## 输入/opsx-archive执行变更的归档
 
 # 参考链接
 
