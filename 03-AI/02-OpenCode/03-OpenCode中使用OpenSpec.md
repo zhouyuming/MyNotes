@@ -89,3 +89,5 @@ task.md即描述AI即将要做哪些任务，后面执行时会根据tasks.md上
 [从Copilot到工程化 Agent执行框架：基于OpenCode + OpenSpec的企业级 AI Coding落地实践](https://aicoding.csdn.net/6966226a6554f1331aa1b6c0.html)
 
 [通过OpenSpec+OpenCode实践AI Specs](https://www.cnblogs.com/whuanle/p/19581835)
+
+[拥抱AI编程，用中文进行规范驱动开发：OpenSpec汉化版正式发布](https://cloud.tencent.com/developer/article/2600274)
