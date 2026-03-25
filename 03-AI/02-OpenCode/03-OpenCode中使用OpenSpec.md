@@ -1,3 +1,5 @@
+# 从Vibe Coding到SDD驱动的结构化协同
+
 # OpenSpec介绍
 
 用OpenSpec对齐AI编程意图
