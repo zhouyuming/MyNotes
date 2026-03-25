@@ -52,6 +52,8 @@ openspec --version
 
 openspec init 或 openspec init-cn
 
+# 开始使用OpenSpec做需求
+
 ## 相关命令使用
 
 ### /opsx:explore
