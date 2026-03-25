@@ -32,6 +32,20 @@ Harness Engineering并不是凭空出现的，它是Prompt Engineering和Context
 
 所有团队都施加了刻意的执行序列：理解 → 规划 → 执行 → 验证
 
+# 五大Harness原则
+
+原则 1：设计环境，而非编写代码
+
+原则 2：机械化地执行架构约束
+
+原则 3：将代码仓库作为唯一事实源
+
+原则 4：将可观测性连接到Agent
+
+原则 5：对抗熵
+
+自定义Linter的巧妙设计：当Agent违反架构约束时，错误消息不仅标记违规——还告诉Agent如何修复
+
 # 参考链接
 
 [Harness Engineering深度解析](https://zhuanlan.zhihu.com/p/2014014859164026634)
