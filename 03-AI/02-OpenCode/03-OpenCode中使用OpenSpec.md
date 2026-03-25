@@ -34,9 +34,23 @@ openspec --version
 
 ## 初始化项目
 
-openspec init
+### 使用OpenCode初始化项目生成AGENTS.md
 
-OpenCode CLI下执行/init
+进入到项目页面打开OpenCode
+
+输入命令/init即可初始化项目生成该项目的AGENTS.md文件，此时agent会扫描项目的结构规范等生成该文件，即为该项目的规则文件，需要添加的规则可在该文件下添加
+
+如果觉得这个文件描述不够清晰，我们可以让agent借助skill-creator，按自己需要生成一个辅助生成项目AGENTS.md文件的skill，并使用该skill来辅助初始化AGENTS.md文件
+
+提示词参考：
+
+请分析这个代码库，并创建一个名为 AGENTS.md 的文件，通过AGENTS.md文档描述系统边界划分、模块层级设计、技术栈选型及编程规范要求，为需求分析与软件实现设计提供支撑；
+
+如果已经存在一个 AGENTS.md 文件，并且该文件位于xxx目录下，请对其内容进行改进。
+
+### 使用OpenSpec初始化项目
+
+openspec init 或 openspec init-cn
 
 ## 相关命令使用
 
