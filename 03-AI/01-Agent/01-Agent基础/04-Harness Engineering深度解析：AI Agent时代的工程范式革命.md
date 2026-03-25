@@ -46,6 +46,16 @@ Harness Engineering并不是凭空出现的，它是Prompt Engineering和Context
 
 自定义Linter的巧妙设计：当Agent违反架构约束时，错误消息不仅标记违规——还告诉Agent如何修复
 
+# Harness的核心组件详解
+
+AGENTS.md——Agent 的活文档
+
+架构约束与自动化执行
+
+可观测性集成
+
+熵管理与"垃圾回收"
+
 # 参考链接
 
 [Harness Engineering深度解析](https://zhuanlan.zhihu.com/p/2014014859164026634)
