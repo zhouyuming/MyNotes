@@ -22,6 +22,8 @@ OpenSpec vs SpecKit：两种SDD哲学
 
  LLMs is already smart enough — intelligence is not the bottleneck, context is
 
+ 从一次性生成到可持续演化
+
 # 安装与初始化
 
 ## 安装OpenSpec
