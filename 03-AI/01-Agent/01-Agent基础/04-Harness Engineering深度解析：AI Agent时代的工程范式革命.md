@@ -30,6 +30,8 @@ Harness Engineering并不是凭空出现的，它是Prompt Engineering和Context
 
 核心原则：将思考与执行分离。研究和规划在受控阶段进行，执行基于验证过的计划，验证通过自动化反馈（测试、Linter、CI）和人类审查完成
 
+所有团队都施加了刻意的执行序列：理解 → 规划 → 执行 → 验证
+
 # 参考链接
 
 [Harness Engineering深度解析](https://zhuanlan.zhihu.com/p/2014014859164026634)
