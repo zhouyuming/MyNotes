@@ -36,6 +36,8 @@ openspec --version
 
 openspec init
 
+OpenCode CLI下执行/init
+
 ## 相关命令使用
 
 ### /opsx:explore
