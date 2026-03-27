@@ -24,3 +24,5 @@ curl -fsSL https://opencode.ai/install | bash
 # 参考链接
 
 [OpenCode官方中文文档](https://opencode.ai/docs/zh-cn/)
+
+[疯狂OpenCode应用案例](https://www.bilibili.com/video/BV1kbXAByEFn/?spm_id_from=333.337.search-card.all.click&vd_source=300730e0f86bed3fb2c80c0103709a12)
