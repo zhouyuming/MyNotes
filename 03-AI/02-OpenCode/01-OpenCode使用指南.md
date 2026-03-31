@@ -14,6 +14,11 @@ OpenCode内置了完善的工具能力，包括文件匹配（Glob）、内容�
 curl -fsSL https://opencode.ai/install | bash
 ```
 
+## 配置
+配置自定义模型
+```
+opnecode auth login
+```
 在全局配置C:/Users/{账号}/.config/opencode目录下添加AGENTS.md文件作为全局的规则
 
 ```
@@ -28,3 +33,7 @@ curl -fsSL https://opencode.ai/install | bash
 [疯狂OpenCode应用案例](https://www.bilibili.com/video/BV1kbXAByEFn/?spm_id_from=333.337.search-card.all.click&vd_source=300730e0f86bed3fb2c80c0103709a12)
 
 [learn-opencode](https://github.com/vbgate/learn-opencode/)
+
+[OpenCode 新手教程：从配置到完全掌握](https://www.bilibili.com/video/BV1DuwszgE1X/?spm_id_from=333.337.search-card.all.click&vd_source=300730e0f86bed3fb2c80c0103709a12)
+
+https://github.com/agentsmd/agents.md
