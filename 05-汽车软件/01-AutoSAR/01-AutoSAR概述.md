@@ -6,9 +6,17 @@ AUTOSAR就是AUTomotive Open System ARchitecture的简称，中文翻译就是�
 
 AutoSAR主要分为3个层级：应用软件层（AppL），实时运行环境（RTE）和基础软件层（BSW）
 
-## AutoSAR的作用
+## AutoSAR架构分析
 
 软硬件隔离
+
+应用软件层
+
+实时运行环境
+
+基础软件层
+
+硬件层
 
 # 参考链接
 
