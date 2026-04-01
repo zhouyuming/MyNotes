@@ -18,3 +18,5 @@ UDS是ISO 14229定义的汽车诊断协议，用于ECU软件刷写、故障诊�
 | 0x37        | 请求传输退出  | 结束刷写                        |	
 
 ## UDS协议标准
+
+UDS（UnifiedDiagnostic Services，统一诊断服务,有时也称增强诊断）是ISO-14229定义的基于OSI模型中应用层的协议。其中，ISO 14229-1定义了诊断服务，但不涉及网络层及实现手段，只有应用层的内容，因此可在不同的汽车总线（如CAN, LIN, Flexray, Ethernet和K-line等）上实现
