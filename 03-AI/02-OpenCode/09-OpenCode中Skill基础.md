@@ -426,6 +426,20 @@ description: 应用公司官方品牌色和排版规范。用于创建需要公�
 
 输出一个我可以直接安装使用的Skill文件夹
 
+# 下载skill
+
+anthropics官方仓库：[https://github.com/anthropics/skills]()
+
+Skills社群网站：[https://skillsmp.com/zh]()
+
+优秀开源集合：[https://github.com/ComposioHQ/awesome-claude-skills]()
+
+视频制作skill：[https://github.com/remotion-dev/skills]()
+
+ui-ux-pro-max：[https://github.com/nextlevelbuilder/ui-ux-pro-max-skill]()
+
+colleague-skill：https://github.com/titanwings/colleague-skill
+
 # 参考链接
 
 [AI大模型Agent Skills完全解析](https://www.bilibili.com/video/BV1je6FBhECT/?spm_id_from=333.337.search-card.all.click&vd_source=300730e0f86bed3fb2c80c0103709a12)
@@ -433,5 +447,3 @@ description: 应用公司官方品牌色和排版规范。用于创建需要公�
 [魔塔skills市场](https://www.modelscope.cn/skills)
 
 [Agent Skills保姆级教程](https://www.bilibili.com/video/BV1ahFmzqE9z?spm_id_from=333.788.player.switch&vd_source=300730e0f86bed3fb2c80c0103709a12)
-
-[skillsmp](https://skillsmp.com/zh)
