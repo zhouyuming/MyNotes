@@ -438,7 +438,9 @@ Skills社群网站：[https://skillsmp.com/zh]()
 
 ui-ux-pro-max：[https://github.com/nextlevelbuilder/ui-ux-pro-max-skill]()
 
-colleague-skill：https://github.com/titanwings/colleague-skill
+colleague-skill：[https://github.com/titanwings/colleague-skill]()
+
+awesome-design-md：[https://github.com/VoltAgent/awesome-design-md]()
 
 # 参考链接
 
