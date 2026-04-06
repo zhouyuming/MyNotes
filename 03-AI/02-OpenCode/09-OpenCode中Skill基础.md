@@ -410,8 +410,28 @@ description: 应用公司官方品牌色和排版规范。用于创建需要公�
 - 根据背景智能选择文字颜色
 ```
 
-参考链接
+# Agent Skill封装
+
+我们刚才的对话已经磨合出了完整的工作流程和输出标准。请现在将这个过程整理成一个标准的Agent Skill，要求如下：
+
+1、创建完整的Skill文件夹结构
+
+2、Skill写清楚：Skill职责、触发场景、执行步骤、输出标准
+
+3、references放入我们确认过的所有格式要求和内容标准
+
+4、可自动化的步骤写入scripts
+
+5、assets放入需要复用的模板文件
+
+输出一个我可以直接安装使用的Skill文件夹
+
+# 参考链接
 
 [AI大模型Agent Skills完全解析](https://www.bilibili.com/video/BV1je6FBhECT/?spm_id_from=333.337.search-card.all.click&vd_source=300730e0f86bed3fb2c80c0103709a12)
 
 [魔塔skills市场](https://www.modelscope.cn/skills)
+
+[Agent Skills保姆级教程](https://www.bilibili.com/video/BV1ahFmzqE9z?spm_id_from=333.788.player.switch&vd_source=300730e0f86bed3fb2c80c0103709a12)
+
+[skillsmp](https://skillsmp.com/zh)
